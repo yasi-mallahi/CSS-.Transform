@@ -1,0 +1,212 @@
+
+section{
+    display: flex;
+    justify-content: center;
+   flex-wrap: wrap;
+   
+}
+
+article{
+    background-color: rgb(249, 225, 225);
+    width: 250px;
+    height: 150px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   flex-wrap: wrap;
+
+}
+
+.parent{
+    width: 120px;
+    height: 120px;
+    background-color: rgba(165, 164, 164, 0.653);
+}
+
+.box{
+    width: 120px;
+    height: 120px;
+    background-color:  rgba(179, 81, 179, 0.697);
+    transition: all linear 1s;
+    
+}
+
+
+ .one:hover .box{
+    transform: rotate(45deg);
+ }
+
+ .two:hover .box{
+    transform: rotatey(45deg);
+ }
+
+ 
+.three:hover .box{
+
+    transform: rotatex(45deg);
+}
+
+.four:hover .box{
+    transform:scale(1.75) ;
+}
+
+.five:hover .box{
+    transform:scalex(1.75) ;
+}
+
+.six:hover .box{
+    transform:scaley(1.75) ;
+}
+
+.seven:hover .box{
+    transform:skewx(40deg) ;
+}
+
+.eight:hover .box{
+    transform:skewy(40deg) ;
+}
+
+.nine:hover .box{
+    transform:translate(30px ,30px);
+   
+}
+.ten:hover .box{
+    transform:translatex(60px);
+}
+
+.eleven:hover .box{
+    transform:translatey(60px);
+}
+
+.twelve:hover .box{
+    transform: skewy(40deg) scale(1.5) translate(16px,-16px) ;
+}
+
+
+.thirteen:hover .box{
+
+    transform:perspective(110px) rotatex(50deg) ;
+}
+
+
+.fourteen:hover .box{
+    transform:perspective(110px) rotatey(50deg) ;
+}
+
+
+.fifteen{
+    transform-origin:top right ;
+}
+.fifteen:hover .box{
+  
+   transform: rotate(45deg);
+}
+
+
+.sixteen{
+    transform-origin:bottom left ;
+
+}
+.sixteen:hover .box{
+   transform: rotate(45deg);
+}
+
+
+.seventeen{
+    transform-origin:bottom;
+}
+.seventeen:hover .box{ transform:  perspective(300px)  rotatex(45deg);
+}
+
+
+
+.eighteen{
+    transform-origin:top;
+}
+.eighteen:hover .box{
+    transform:  perspective(300px)  rotatex(50deg);
+}
+
+
+.ninteen{
+    transform-origin:left;
+}
+.ninteen:hover .box{
+
+    transform:  perspective(500px)  rotatey(50deg);
+}
+
+
+.twenty{
+    transform-origin:right;
+}
+.twenty:hover .box{
+   
+    transform:  perspective(300px)  rotatey(60deg);
+
+}
+
+
+
+.t-one{
+
+    transform-origin:top right ;
+}
+
+.t-one:hover .box{
+    transform:   scale(1.75);
+}
+
+
+
+.t-two{
+
+    
+    transform-origin:bottom left ;
+}
+.t-two:hover .box{
+   
+    transform:  scale(1.75);
+}
+
+
+
+.t-three{
+
+    transform-origin: right ;
+}
+.t-three:hover .box{
+    
+    transform: scalex(2)  ;
+}
+
+
+.t-four{
+
+    transform-origin: left ;
+
+}
+.t-four:hover .box{
+  
+    transform: scalex(2)  ;
+}
+
+.t-five{
+
+    transform-origin: top;
+
+}
+.t-five:hover .box{
+   
+    transform: scaley(2)  ;
+}
+
+.t-six{
+
+    transform-origin: bottom;
+}
+.t-six:hover .box{
+    
+    transform: scaley(2)  ;
+}
